@@ -11,7 +11,7 @@ class LanguagePack::Helpers::Nodebin
   end
 
   def self.hardcoded_node_lts
-    version = "6.16.0"
+    version = "8.15.1"
     {
       "number" => version,
       "url"    => "https://s3.amazonaws.com/heroku-nodebin/node/release/linux-x64/node-v#{version}-linux-x64.tar.gz"
